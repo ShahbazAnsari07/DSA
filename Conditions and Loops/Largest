@@ -1,0 +1,26 @@
+public class Largest {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+//        System.out.print("Enter the value of a: ");
+//        float a = sc.nextFloat();
+//        System.out.print("Enter teh value of b: ");
+//        float b = sc.nextFloat();
+//        System.out.print("Enter the value of c: ");
+//        float c = sc.nextFloat();
+//
+//        if(a>b && a>c) {
+//            System.out.println(" a is the largest number");
+//        } else if (b>a && b>c) {
+//            System.out.println(" b is the largest");
+//
+//        }
+//        else {
+//            System.out.println(" c is the largest");
+//        }
+
+        int max = Math.max(10,20);
+
+        System.out.println(max);
+    }
+}
