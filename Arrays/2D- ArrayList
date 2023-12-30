@@ -1,0 +1,35 @@
+// 2D-ArrayList is a dynamic list of lists.
+// You can change the size of these list during runtime.
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class MultiArr {
+    public static void main(String[] args) {
+
+        ArrayList<ArrayList<String>> groceryList = new ArrayList();      // Syntax
+
+        ArrayList<String> bakeryList = new ArrayList();
+        bakeryList.add("pasta");
+        bakeryList.add("garlic bread");
+        bakeryList.add("donuts");
+
+        ArrayList<String> produceList = new ArrayList();
+        produceList.add("zucchini");
+        produceList.add("tomatoes");
+        produceList.add("peppers");
+
+        ArrayList<String> drinkList = new ArrayList();
+        drinkList.add("soda");
+        drinkList.add("coffee");
+        drinkList.add("juice");
+
+        groceryList.add(bakeryList);
+        groceryList.add(produceList);
+        groceryList.add(drinkList);
+
+        System.out.println(groceryList.get(0).get(0));
+
+    }
+
+}
